@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+
+    <title>Task List</title>
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href='https://fonts.googleapis.com/css?family=Khula:400,600,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/skeleton.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="js/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery-ui.min.js" type="text/javascript">
+    </script>
+    <script src="js/moment.js" type="text/javascript"></script>
+    <script src="js/core.js" type="text/javascript"></script>
+    <link href="" rel="icon" type="image/png">
+</head>
+
+<body>
+    <div class="container">
+        <!--<div id="login-form" class="row" style="margin-top:5%; display: none;">
+            <div class="eight columns">
+            <input id="user" type="text" placeholder="Username" />
+            <input id="pass" type="password" placeholder="Password" />
+            <button id="login">Login</button>
+
+            </div>
+        </div>-->
+        <div class="row" style="margin-top:5%;">
+            <div class="eight columns">
+                <div id="todo" class="task-container">
+                    <div class="task-header">
+                        <h2>Tasks <i id="add" title="Add New Task" class="fa fa-plus-circle"></i></h2>
+                        <select id="sort">
+                            <option disabled selected>Sort By...</option>
+                            <option value='1'>Due Date</option>
+                            <option value='2'>Client</option>
+                            <option value='0' >Priority</option>
+                        </select>
+                    </div>
+                    <div class="task-body">
+                        <ul>
+                            <li>
+                                <div id="addform">
+                                    <input id="title" type="text" placeholder="Task" tabindex="1" />
+                                    <select id="client" tabindex="2">
+                                        <option disabled selected>Select Client</option>
+                                    </select>
+                                     <select id="date" tabindex="3">
+                                        <option disabled selected>Due In...</option>
+                                    </select>
+                                    <button id="addItem" tabindex="4">Add</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list">  
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
